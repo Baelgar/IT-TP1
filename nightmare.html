@@ -3,24 +3,29 @@
 	<head>
 		<meta charset="utf-8">
 		<title>World of Warcraft : Legion</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="css/style.css">
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin=anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+		<script src="https://www.youtube.com/iframe_api"></script>
+
 	</head>
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="css/style.css">
-		
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-		
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin=anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 
 
 
@@ -41,12 +46,12 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
-		      
-		        <li class="active"><a href="accueil.html">Home</a></li>
+
+		        <li><a href="index.html">Home</a></li>
 		        <li><a href="news.html">News</a></li>
 		        <li><a href="videos.html">Videos</a></li>
-		      
-		       	<li class="dropdown">
+
+		       	<li class="dropdown active">
 		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Raids <span class="caret"></span></a>
 		          <ul class="dropdown-menu">
 		            <li class ="active"><a href="nightmare.html">Cauchemar d'Emeraude</a></li>
@@ -62,16 +67,45 @@
 		</nav>
 
 
-		<section id="presentation">
-			<p>Post haec indumentum regale quaerebatur et ministris fucandae purpurae tortis confessisque pectoralem tuniculam sine manicis textam, Maras nomine quidam inductus est ut appellant Christiani diaconus, cuius prolatae litterae scriptae Graeco sermone ad Tyrii textrini praepositum celerari speciem perurgebant quam autem non indicabant denique etiam idem ad usque discrimen vitae vexatus nihil fateri conpulsus est.</p>
+		<div class="jumbotron">
+			<div class="container">
+				<!-- Nav tabs -->
+				 <ul class="nav nav-tabs" role="tablist">
+					 <li role="presentation" class="active"><a href="#nythendra" aria-controls="nythendra" role="tab" data-toggle="tab">Nythendra</a></li>
+					 <li role="presentation"><a href="#ursoc" aria-controls="ursoc" role="tab" data-toggle="tab">Ursoc</a></li>
+					 <li role="presentation"><a href="#elerethe" aria-controls="elerethe" role="tab" data-toggle="tab">Elerethe</a></li>
+					 <li role="presentation"><a href="#cenarius" aria-controls="cenarius" role="tab" data-toggle="tab">Cenarius</a></li>
+				 </ul>
 
-			<p>Martinus agens illas provincias pro praefectis aerumnas innocentium graviter gemens saepeque obsecrans, ut ab omni culpa inmunibus parceretur, cum non inpetraret, minabatur se discessurum: ut saltem id metuens perquisitor malivolus tandem desineret quieti coalitos homines in aperta pericula proiectare.</p>
 
-			<p>Et eodem impetu Domitianum praecipitem per scalas itidem funibus constrinxerunt, eosque coniunctos per ampla spatia civitatis acri raptavere discursu. iamque artuum et membrorum divulsa conpage superscandentes corpora mortuorum ad ultimam truncata deformitatem velut exsaturati mox abiecerunt in flumen.</p>
-		</section>
+				 <!-- Tab panes -->
+				 <div class="tab-content">
+					 <div role="tabpanel" class="tab-pane active" id="nythendra">
+						 <div id="video-placeholder">
+						 </div>
+					 </div>
+
+					 <div role="tabpanel" class="tab-pane" id="ursoc">
+						 <div id="ursoc-placeholder">
+						 </div>
+					 </div>
+
+					 <div role="tabpanel" class="tab-pane" id="elerethe">
+						 <div id="elerethe-placeholder">
+						 </div>
+					 </div>
+
+					 <div role="tabpanel" class="tab-pane" id="cenarius">
+						 <div id="cenarius-placeholder">
+						 </div>
+					</div>
+
+				 </div>
+			</div>
+		</div>
 
 
-		
+
 	</body>
 
 	<footer>
@@ -80,3 +114,33 @@
 
 
 </html>
+
+
+<script src="js/nythendra.js"></script>
+<script src="js/ursoc.js"></script>
+<script src="js/elerethe.js"></script>
+<script src="js/cenarius.js"></script>
+
+<script type="text/javascript">
+
+$('#nythendra a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+$('#ursoc a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+$('#elerethe a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+$('#cenarius a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+</script>

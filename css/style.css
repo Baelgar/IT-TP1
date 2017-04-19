@@ -1,23 +1,131 @@
-html{
-	background-image: url(/img/background.jpg); 
+body{
+	background-image: url(/img/div_background.jpg);
 	background-position: center center;
-	background-repeat: no-repeat; 
-	background-attachment: fixed; 
-	background-size: cover; 
-	-moz-background-size: 100% 400%;     /* Gecko 1.9.2 (Firefox 3.6) */
-	-o-background-size: 100% 400%;        /* Opera 9.5 */
-	-webkit-background-size: 100% 400%;   /* Safari 3.0 */
-	background-size: 100% 400%;           /* Gecko 2.0 (Firefox 4.0) > CSS3 */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: 100% 100%;     /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: 100% 100%;        /* Opera 9.5 */
+	-webkit-background-size: 100% 100%;   /* Safari 3.0 */
+	background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) > CSS3 */
 }
+
+
+@keyframes AutoSlide {
+	0%, 15%, 100% {
+		left: 0px; /*1ère image*/
+	}
+	35%, 50% {
+		left: -150px; /*2ème image*/
+	}
+	70%, 85% {
+		left: -300px; /*3ème image*/
+	}
+}
+
+#slideshow {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin:  20px auto;
+	overflow: hidden;
+}
+#sContent li {
+	display: inline;
+}
+
+
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	margin: 0;
+	padding: 0;
+
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+.navbar{
+	margin-bottom: 0px!important;
+	background: rgba(37,22,19,0.5)!important;
+	color: rgb(214,179,82);
+}
+
+.navbar-default{
+	border-radius: 0px!important;
+	border: 0px!important;
+}
+
+.wow-helping{
+	display: flex;
+	flex-direction: row;
+  justify-content: space-around;
+  align-item: center;
+	height: 100%;
+}
+
+
+.tank-guide{
+	/*#251613 //marron
+	#F8B700 //jaune*/
+	background: rgba(37,22,19,0.7);
+	align-content: center;
+	width:33%;
+	height:60em;
+}
+.tank-guide:hover{
+	border-color: rgb(214,179,82);
+}
+
+.heal-guide{
+	background: rgba(37,22,19,0.7);
+	align-content: center;
+	width:33%;
+	height:60em;
+}
+.leveling{
+	background: rgba(37,22,19,0.7);
+	align-content: center;
+	width:33%;
+	height:60em;
+}
+
+article{
+	text-align: center;
+	color: rgb(214,179,82);
+}
+
+p{
+	text-align: justify;
+}
+
+a{
+	color:rgb(214,179,82)!important;
+}
+
+.jumbotron{
+	margin:0 auto;
+	margin-top: 2.5em;
+	height: 55em;
+	width: 55em;
+	background: rgba(37,22,19,0.7)!important;
+}
+
+div{
+		color:rgb(214,179,82);
+}
+
 
 footer{
 	background : rgba(0,0,0,0.5);
-	position: absolute;
+	position: relative;
     left: 0;
     bottom: 0;
     height: 100px;
     width: 100%;
-}
-
-.col-md-4{
 }
