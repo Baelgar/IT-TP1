@@ -78,9 +78,7 @@ div#slider figure {
 	width:33%;
 	height:10em;
 }
-.tank-guide:hover{
-	border-color: rgb(214,179,82);
-}
+
 
 .heal-guide{
 	background: rgba(37,22,19,0.7);

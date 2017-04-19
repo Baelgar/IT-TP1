@@ -12,20 +12,58 @@
   	background-size: 100% 100%;
   }
 
-  @color : rgb(214,179,82);
+
+.flexbox-item{
+  align-content: center;
+	width:33%;
+	height:10em;
+}
+
+
+  @beige : rgb(214,179,82);
 
   .border{
     border-radius: 0px!important;
 	  border: 0px!important;
   }
 
-  @background-color : rgba(37,22,19,0.5)!important;
+  @bgcolor : rgba(37,22,19,0.5)!important;
 
-  .sections-accueil{
-    align-content: center;
-  	width:33%;
-  	height:60em;
+
+  body{
+    .background;
   }
+
+  .navbar{
+    margin-bottom: 0px!important;
+  }
+
+  .tank-guide, .heal-guide, .leveling{
+    align-content: center;
+  }
+
+  .navbar, .tank-guide, .heal-guide, .leveling, .jumbotron{
+    background-color: @bgcolor;
+    a, div{
+      color: @beige;
+    }
+  }
+
+  .wow-helping{
+  	display: flex;
+  	flex-direction: row;
+    justify-content: space-around;
+    align-item: center;
+  	height: 100%;
+  }
+
+  .jumbotron{
+  	margin:0 auto;
+  	margin-top: 2.5em;
+  	height: 55em;
+  	width: 55em;
+  }
+
 
 
   @keyframes AutoSlide {
