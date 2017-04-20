@@ -8,15 +8,20 @@ body{
 	-o-background-size: 100% 100%;        /* Opera 9.5 */
 	-webkit-background-size: 100% 100%;   /* Safari 3.0 */
 	background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) > CSS3 */
-  cursor: url(/img/pointer.cur);
+  cursor: url(/img/pointer.cur), pointer;
 }
+
 
 select{
 	height: 3em;
 	width: 52.7%;
+	cursor: url(/img/link_pointer.cur), pointer;
 }
 
-
+.navbar-brand{
+	background: url(/img/logo.png);
+	z-index: 10;
+}
 .navbar{
 	margin-bottom: 0px!important;
 	background: rgba(37,22,19,0.5)!important;
@@ -28,11 +33,11 @@ select{
 	border: 0px!important;
 }
 
-a.active{
-	background-color: background: rgba(214,179,82,0.5)!important;
+.active a{
+	background: rgba(214,179,82,0.8)!important;
 	color: rgb(37,22,19)!important;
-	cursor: url(/img/link_pointer.cur);
-}
+	cursor: url(/img/link_pointer.cur), pointer;
+}*/
 
 
 .carousel-fade {
@@ -144,6 +149,7 @@ main,
 	margin: 0.5em;
 	border-color: rgb(147, 125, 63)!important;
 	border: solid;
+	cursor: url(/img/link_pointer.cur), pointer;
 }
 
 
@@ -160,6 +166,7 @@ main,
 -webkit-border-radius: 0px!important;
 -moz-border-radius: 0px!important;
 border-radius: 0px!important;
+cursor: url(/img/link_pointer.cur), pointer;
 }
 
 .nythendra {
@@ -174,6 +181,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+cursor: url(/img/link_pointer.cur), pointer;
 }
 
 .ursoc {
@@ -188,6 +196,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+cursor: url(/img/link_pointer.cur), pointer;
 }
 
 .elerethe {
@@ -202,6 +211,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+cursor: url(/img/link_pointer.cur), pointer;
 }
 
 .ilgynoth {
@@ -216,6 +226,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+cursor: url(/img/link_pointer.cur), pointer;
 }
 
 .dragons {
@@ -230,6 +241,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+cursor: url(/img/link_pointer.cur), pointer;
 }
 
 .cenarius {
@@ -244,6 +256,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+cursor: url(/img/link_pointer.cur), pointer;
 }
 
 .xavius {
@@ -258,6 +271,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+cursor: url(/img/link_pointer.cur), pointer;
 }
 
 
@@ -273,6 +287,7 @@ p{
 a{
 	color:rgb(214,179,82)!important;
 	font-weight: bold;
+	cursor: url(/img/link_pointer.cur), pointer;
 }
 
 
