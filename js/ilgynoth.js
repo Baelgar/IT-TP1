@@ -2,7 +2,7 @@ var player,
     time_update_interval = 0;
 
 function onYouTubeIframeAPIReady() {
-    player = new YT.Player('cenarius', {
+    player = new YT.Player('ilgynoth', {
         width: 600,
         height: 400,
         videoId: 'rKKP50hPoxk',
