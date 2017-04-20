@@ -8,6 +8,7 @@ body{
 	-o-background-size: 100% 100%;        /* Opera 9.5 */
 	-webkit-background-size: 100% 100%;   /* Safari 3.0 */
 	background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) > CSS3 */
+  cursor: url(/img/pointer.cur);
 }
 
 select{
@@ -30,6 +31,7 @@ select{
 a.active{
 	background-color: background: rgba(214,179,82,0.5)!important;
 	color: rgb(37,22,19)!important;
+	cursor: url(/img/link_pointer.cur);
 }
 
 
@@ -124,6 +126,17 @@ main,
 
 .tank-guide, .heal-guide, .leveling, .farming{
 	background: rgba(37,22,19,0.7);
+	align-content: center;
+	width: 25%;
+	/*height: 22em;*/
+	padding: 1em;
+	margin: 0.5em;
+	border-color: rgb(147, 125, 63)!important;
+	border: solid;
+}
+
+.tank-guide:hover, .heal-guide:hover, .leveling:hover, .farming:hover{
+	background: rgba(255,255,255,0.5);
 	align-content: center;
 	width: 25%;
 	/*height: 22em;*/
