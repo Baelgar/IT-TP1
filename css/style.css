@@ -99,51 +99,35 @@ main,
 	bottom : 20em;
 }
 
+.container-news{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
 
-.tank-guide{
+.news-brokenshore, .news-artifact-power, .news-dps-ranking, .news-raid{
+	background: rgba(37,22,19,0.7);
+	align-content: center;
+	width: 50%;
+	padding: 1em;
+	margin-top: 1.5em;
+  margin-left: 25%;
+	border-color: rgb(147, 125, 63)!important;
+	border: solid;
+}
+
+
+.tank-guide, .heal-guide, .leveling, .farming{
 	background: rgba(37,22,19,0.7);
 	align-content: center;
 	width: 25%;
-	height: 22em;
+	/*height: 22em;*/
 	padding: 1em;
 	margin: 0.5em;
 	border-color: rgb(147, 125, 63)!important;
 	border: solid;
 }
 
-
-.heal-guide{
-	background: rgba(37,22,19,0.7);
-	align-content: center;
-	width: 25%;
-	height: 22em;
-	padding: 1em;
-	margin: 0.5em;
-	border-color: rgb(147, 125, 63)!important;
-	border: solid;
-}
-
-
-.leveling{
-	background: rgba(37,22,19,0.7);
-	align-content: center;
-	width: 25%;
-	height: 22em;
-	padding: 1em;
-	margin: 0.5em;
-	border-color: rgb(147, 125, 63)!important;
-	border: solid;
-}
-
-.farming{
-	background: rgba(37,22,19,0.7);
-	align-content: center;
-	width: 25%;
-	height: 22em;
-	padding: 1em;
-	margin: 0.5em;
-	border: solid rgb(147, 125, 63)!important;
-}
 
 
 .jumbotron{
@@ -155,6 +139,11 @@ main,
 	border: solid rgb(147, 125, 63)!important;
 }
 
+.nav-tabs > li > a {
+-webkit-border-radius: 0px!important;
+-moz-border-radius: 0px!important;
+border-radius: 0px!important;
+}
 
 .nythendra {
 position: relative;
@@ -266,6 +255,7 @@ p{
 
 a{
 	color:rgb(214,179,82)!important;
+	font-weight: bold;
 }
 
 
@@ -275,13 +265,24 @@ div{
 }
 
 
-footer{
+.footer-index{
 	background: rgba(37,22,19,0.7);
 	text-align: center;
 	color: rgb(214,179,82);
 	position: absolute;
     left: 0;
-    bottom: -46.5%;
+    bottom: -47.5%;
+    height: 100px;
+    width: 100%;
+}
+
+.footer-news{
+	background: rgba(37,22,19,0.7);
+	text-align: center;
+	color: rgb(214,179,82);
+	position: absolute;
+    left: 0;
+    bottom: -90%;
     height: 100px;
     width: 100%;
 }
