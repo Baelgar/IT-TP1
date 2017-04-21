@@ -65,25 +65,31 @@
 
 
 		<main>
+
 			<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+				<ol class="carousel-indicators">
+			    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel" data-slide-to="1"></li>
+			    <li data-target="#carousel" data-slide-to="2"></li>
+  			</ol>
 
     <!-- Carousel items -->
     <div class="carousel-inner">
-        <div class="active item">
+        <div class="active item" id="broken">
 					<img src="img/broken.jpg">
 					<div class="carousel-caption">
 						<h3>Guide : Flying in the Broken Isles</h3>
 					</div>
 				</div>
 
-        <div class="item">
+        <div class="item" id="raid">
 					<img src="img/raid_entrance.jpg">
 					<div class="carousel-caption">
 						<h3>Raids : Tomb of Sargeras</h3>
 					</div>
 				</div>
 
-        <div class="item">
+        <div class="item" id="arme">
 					<img src="img/arme.jpg">
 					<div class="carousel-caption">
 						<h3>How to : Unlock the 6th artifact skin</h3>

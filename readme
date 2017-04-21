@@ -1,4 +1,33 @@
 Project : HTML5 / CSS3
 Author : Kevin
-License : World of Warcraft boss encounters videos 
-Install : 
+License : World of Warcraft boss encounters videos
+Install :
+
+images utilisées dans le cadre du tp.
+
+Retour client :
+Legend : 	(y) --> points positifs
+			/!\ --> points négatifs
+
+--------------------------------------
+
+Responsivité :
+				- (y) La page s'adapte correctement aux différentes tailles
+				- /!\ Le premier article dans la section news empiète sur la navbar
+
+
+Visuel :
+				- /!\ Seule la page home possède un background (slider) --> les autres pages paraissent délaissées / vides
+				- (y) Le slider s'intègre bien au design du site
+				- /!\ Les images séléctionnées sont pixélisées
+				- (y) La page home défini un style qui concorde bien avec le sujet du blog
+
+Utilisation :
+				- /!\ Page raid scrollable sans contenu
+				- /!\ La page news est lente au chargement sans raison apparente
+
+
+Amélioration :
+				- Controle du slide	--> frustrant quand de devoir attendre une rotation complète quand une image nous intéresse
+				- La page raid est bien vide, peut être rajouté une séléction des donjons par tranche de niveaux
+				- Rajouter une déscription des donjons pour remplir un peu
