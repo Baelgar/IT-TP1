@@ -134,7 +134,9 @@ main,
 	cursor: url(/img/link_pointer.cur), pointer;
 }
 
-
+.container-fluid{
+	margin-bottom: 2%;
+}
 
 .jumbotron{
 	margin:0 auto;
