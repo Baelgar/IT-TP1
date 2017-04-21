@@ -5,8 +5,7 @@
 		<title>World of Warcraft : Legion</title>
 
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="css/style.css">
-
+	<link rel="stylesheet" href="css/style.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -261,6 +260,10 @@
 						</div>
 				<!-- VIDEOS XAVIUS FIN -->
 
+				<div class="strat">
+					<h2><button class="strategie">Découvrez la strat' ici</button></h2>
+					<section id="strat-nythendra"></section>
+				</div>
 			</div> <!-- CONTAINER FIN -->
 		</div> <!-- JUMBOTRON FIN -->
 
@@ -271,6 +274,9 @@
 
 <script>
 	$(document).ready(function(){
+
+		$('#strat-nythendra').hide();
+
 		$('.navigation-nythendra').show();
 		$('.navigation-ursoc').hide();
 		$('.navigation-elerethe').hide();
@@ -431,7 +437,14 @@ $('.nightmare-video-selector').change(function(){
 		}
 });
 
+	$('.strategie').click(function(){
+		$.getScript("js/jsReader.js");
+		$('#strat-nythendra').show();
+		$('.strategie').prop('disabled',true);
 	});
+
+});
 </script>
+
 
 </html>
