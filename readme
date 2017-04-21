@@ -18,6 +18,8 @@ Fonctionnalités :
 Bugs :
 	Tout le contenu du dropdown passe en .active (heritage du css de la classe .active) lorsqu'on sélection un raid
 
+Pas réussi à remplacer Brand dans le navbar par un logo de wow
+
 
 Retour client :
 Legend : 	(y) --> points positifs
