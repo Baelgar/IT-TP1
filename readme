@@ -12,8 +12,11 @@ Fonctionnalités :
 		- Slide
 		- Hover sur flexbox + redirection via jquery
 	Raids :
-		- Selection du raid via select + onglets pour chaque difficulté
+		- Selection des boss via select + onglets pour chaque difficulté
 		- Bouton pour affichage de la stratégie par appel d'un fichier JSON
+
+Bugs :
+	Tout le contenu du dropdown passe en .active (heritage du css de la classe .active) lorsqu'on sélection un raid
 
 
 Retour client :
