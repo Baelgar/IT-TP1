@@ -18,10 +18,7 @@ select{
 	cursor: url(/img/link_pointer.cur), pointer;
 }
 
-.navbar-brand{
-	background: url(/img/logo.png);
-	z-index: 10;
-}
+
 .navbar{
 	margin-bottom: 0px!important;
 	background: rgba(37,22,19,0.5)!important;
@@ -37,7 +34,7 @@ select{
 	background: rgba(214,179,82,0.8)!important;
 	color: rgb(37,22,19)!important;
 	cursor: url(/img/link_pointer.cur), pointer;
-}*/
+}
 
 
 .carousel-fade {
@@ -81,16 +78,6 @@ main,
     height: 99.2%;
 }
 
-.item:nth-child(1) {
-
-}
-
-.item:nth-child(2){
-}
-
-.item:nth-child(3){
-}
-
 .carousel-caption{
 	background: rgba(37,22,19,0.7);
 	text-align: center;
@@ -121,7 +108,6 @@ main,
 	background: rgba(37,22,19,0.7);
 	align-content: center;
 	width: 50%;
-	padding: 1em;
 	margin-top: 1.5em;
   margin-left: 25%;
 	border-color: rgb(147, 125, 63)!important;
@@ -133,8 +119,6 @@ main,
 	background: rgba(37,22,19,0.7);
 	align-content: center;
 	width: 25%;
-	/*height: 22em;*/
-	padding: 1em;
 	margin: 0.5em;
 	border-color: rgb(147, 125, 63)!important;
 	border: solid;
@@ -144,8 +128,6 @@ main,
 	background: rgba(255,255,255,0.5);
 	align-content: center;
 	width: 25%;
-	/*height: 22em;*/
-	padding: 1em;
 	margin: 0.5em;
 	border-color: rgb(147, 125, 63)!important;
 	border: solid;
@@ -278,6 +260,7 @@ cursor: url(/img/link_pointer.cur), pointer;
 article{
 	text-align: center;
 	color: rgb(214,179,82);
+	padding:2em;
 }
 
 p{
@@ -296,6 +279,11 @@ div{
 		color:rgb(214,179,82);
 }
 
+.h2, h2{
+	font-weight: bold!important;
+	padding-bottom: 3%;
+}
+
 
 .footer-index{
 	background: rgba(37,22,19,0.7);
@@ -303,7 +291,7 @@ div{
 	color: rgb(214,179,82);
 	position: absolute;
     left: 0;
-    bottom: -47.5%;
+    bottom: -50%;
     height: 100px;
     width: 100%;
 }
