@@ -1,12 +1,11 @@
 {
-   "Phase":"La rêveuse pestiférée",
-   "Infeste":"Les personnages-joueurs touchés par une source de dégâts de Peste reçoivent une charge d'Infesté qui inflige 10 000 | 21 000 points de dégâts de Peste toutes les 2 s. Cet effet est cumulable.
-    Toutes les applications d'Infesté sont supprimés quand Nythendra achève Cœur de l'essaim." ,
-   "Esprit":"La corruption de Nythendra prend le contrôle de tous les personnages-joueurs ayant au moins 10 charges d'Infesté, ce qui les force à lancer périodiquement Propagation de la contamination. Infliger suffisamment de dégâts au personnage-joueur contrôlé annule l'effet." ,
-  "Propagation" : "Inflige 465 000 points de dégâts de Peste aux personnages-joueurs.",
-  "Sol":" Crée une zone de corruption qui inflige 136 500 | 195 000 | 280 500 | 398 000 points de dégâts de Peste toutes les 1,5 s à ceux qui s'y trouvent.",
-  "Souffle":"Nythendra exhale des nuées d'insectes venimeux qui infligent 159 000 | 227 400 | 324 800 | 464 000 points de dégâts de Peste toutes les secondes pendant 5 s. De plus, son souffle corrompt la zone, créant ainsi des poches de sol contaminé.",
-  "Pourriture":"Inflige 218 000 | 265 000 | 310 000 | 403 500 points de dégâts de Peste aux alliés à moins de 8 mètres toutes les 3 s pendant 9 s. A expiration, la corruption jaillit de la cible pour créer des zones de sol contaminé.",
-  "Pourriture-explosive":"Inflige au maximum 1 182 500 | 1 432 000 | 1 697 200 | 1 986 000 points de dégâts de Peste à tous les alliés au bout de 8 s. Plus ils sont éloignés du centre de l'explosion, moins ils subissent de dégâts. De plus, la déflagration crée plusieurs zones de sol contaminé."
+	"Phase": "La rêveuse pestiférée",
+	"Infeste": "Les personnages-joueurs touchés par une source de dégâts de Peste reçoivent une charge d'Infesté qui inflige 10 000 | 21 000 points de dégâts de Peste toutes les 2 s. Cet effet est cumulable. Toutes les applications d'Infesté sont supprimés quand Nythendra achève Cœur de l'essaim.",
+	"Esprit": "La corruption de Nythendra prend le contrôle de tous les personnages-joueurs ayant au moins 10 charges d'Infesté, ce qui les force à lancer périodiquement Propagation de la contamination. Infliger suffisamment de dégâts au personnage-joueur contrôlé annule l'effet.",
+	"Propagation": "Inflige 465 000 points de dégâts de Peste aux personnages-joueurs.",
+	"Sol": " Crée une zone de corruption qui inflige 136 500 | 195 000 | 280 500 | 398 000 points de dégâts de Peste toutes les 1,5 s à ceux qui s'y trouvent.",
+	"Souffle": "Nythendra exhale des nuées d'insectes venimeux qui infligent 159 000 | 227 400 | 324 800 | 464 000 points de dégâts de Peste toutes les secondes pendant 5 s. De plus, son souffle corrompt la zone, créant ainsi des poches de sol contaminé.",
+	"Pourriture": "Inflige 218 000 | 265 000 | 310 000 | 403 500 points de dégâts de Peste aux alliés à moins de 8 mètres toutes les 3 s pendant 9 s. A expiration, la corruption jaillit de la cible pour créer des zones de sol contaminé.",
+	"Pourriture_explosive": "Inflige au maximum 1 182 500 | 1 432 000 | 1 697 200 | 1 986 000 points de dégâts de Peste à tous les alliés au bout de 8 s. Plus ils sont éloignés du centre de l'explosion, moins ils subissent de dégâts. De plus, la déflagration crée plusieurs zones de sol contaminé."
 
 }

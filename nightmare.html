@@ -262,7 +262,7 @@
 				<!-- VIDEOS XAVIUS FIN -->
 
 				<div class="strat">
-					<h2><a href="#" class="strategie">Stratégie</a></h2>
+					<h2><button class="strategie">Découvrez la strat' ici</button></h2>
 					<section id="strat-nythendra"></section>
 				</div>
 			</div> <!-- CONTAINER FIN -->
@@ -275,6 +275,8 @@
 
 <script>
 	$(document).ready(function(){
+
+		$('#strat-nythendra').hide();
 
 		$('.navigation-nythendra').show();
 		$('.navigation-ursoc').hide();
@@ -436,20 +438,14 @@ $('.nightmare-video-selector').change(function(){
 		}
 });
 
-$('.strategie').click(function(){
-          $.getJSON('js/nythendra.json',function(data){
-            $('#strat-nythendra').append('<h3>Phase 1 : ' + data.Phase + '</h3>');
-            $('#strat-nythendra').append('<p> Infesté : ' + data.Infest + '</p>');
-						$('#strat-nythendra').append('<p> Esprit contaminé : ' + data.Esprit + '</p>');
-						$('#strat-nythendra').append('<p> Propagation : ' + data.Propagation + '</p>');
-						$('#strat-nythendra').append('<p> Sol contaminé: ' + data.Sol + '</p>');
-						$('#strat-nythendra').append('<p> Souffle : ' + data.Souffle + '</p>');
-						$('#strat-nythendra').append('<p> Pourriture : ' + data.Pourriture + '</p>');
-						$('#strat-nythendra').append('<p> Pourriture-explosive : ' + data.Pourriture-explosive + '</p>');
-          });
-        });
-
+	$('.strategie').click(function(){
+		$.getScript("js/jsReader.js");
+		$('#strat-nythendra').show();
+		$('.strategie').prop('disabled',true);
 	});
+
+});
 </script>
+
 
 </html>

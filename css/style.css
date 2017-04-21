@@ -89,7 +89,7 @@ main,
 }
 
 .carousel-indicators{
-	
+
 }
 
 .wow-helping{
@@ -265,6 +265,14 @@ height: 100%;
 cursor: url(/img/link_pointer.cur), pointer;
 }
 
+.strategie{
+	border: solid 1px rgb(214,179,82);
+	font-size: 0.6em;
+	padding: 2%;
+	margin-left: 35%;;
+	background: url(/img/background.jpg);
+	cursor: url(/img/link_pointer.cur), pointer;
+}
 
 article{
 	text-align: center;
@@ -274,6 +282,12 @@ article{
 
 p{
 	text-align: justify;
+	padding:1%;
+}
+
+h4{
+	font-style: italic;
+	font-weight: bold;
 }
 
 a{
